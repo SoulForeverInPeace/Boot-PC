@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    android:layout_marginTop="12dp"
+ 
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Testa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <androidx.legacy.widget.Space
+        android:id="@+id/space1"
+        android:layout_width="0dp"
+        android:layout_height="270dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_text_view" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ac" />
+
+    <androidx.legacy.widget.Space
+        android:id="@+id/space2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_view" />
+
+    <Button
+        android:id="@+id/su_access_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space2"
+        android:backgroundTint=" #8c8c8c"
+        android:text="Grant su access"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+  android:textAlignment="center" />
+
+    <androidx.legacy.widget.Space
+        android:id="@+id/space3"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/su_access_button" />
+
+    <TextView
+        android:id="@+id/gap_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space3"
+        android:text="Let go!"
+        android:textColor="?android:textColorTertiary"
+  android:textAlignment="center"/>
+  
+  
+  
+  <androidx.legacy.widget.Space
+        android:id="@+id/space4"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gap_text_view" />
+		
+		
+		
+		
+      <TextView
+        android:id="@+id/activity_main_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space4"
+        android:text="@string/hyperlink"
+        android:textColor="?android:textColorTertiary"
+        android:textAlignment="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

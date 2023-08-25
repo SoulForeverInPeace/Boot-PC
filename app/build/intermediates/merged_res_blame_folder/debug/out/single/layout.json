@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-mergeDebugResources-40:/layout/fragment_mainscreen.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-main-43:/layout/fragment_mainscreen.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-mergeDebugResources-40:/layout/activity_about.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-main-43:/layout/activity_about.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-mergeDebugResources-40:/layout/my_text_view.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-main-43:/layout/my_text_view.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-mergeDebugResources-40:/layout/activity_picker.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-main-43:/layout/activity_picker.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-mergeDebugResources-40:/layout/fragment_file_picker.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-main-43:/layout/fragment_file_picker.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-mergeDebugResources-40:/layout/activity_detail.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-main-43:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.my.mdmd.app-mergeDebugResources-40:/layout/fragment_mainscreen.xml",
+        "source": "com.my.mdmd.app-main-43:/layout/fragment_mainscreen.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.my.mdmd.app-main-43:/layout/activity_main.xml"
+    }
+]
