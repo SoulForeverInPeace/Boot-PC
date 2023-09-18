@@ -11,10 +11,11 @@ An android app to boot pc without external media.
 
 Requirement: Rooted device
 
-/del>Source code- master branch</del>
+<del>Source code- master branch</del>
 
 **To download check release.**
-```Note[19/9/2023]: Starting from today there will be two version, untested and stable. latest release may contain anybof these. ````
+
+``` Note[19/9/2023]: Starting from today there will be two version, untested and stable. latest release may contain anybof these. ```
 
 Image taken from: https://www.flaticon.com/free-icon/connection_1674900?related_id=1674798&origin=search
 
