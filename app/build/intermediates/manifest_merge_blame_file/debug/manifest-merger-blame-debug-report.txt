@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.my.mdmd"
+4    android:versionCode="1"
+5    android:versionName="1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:23:5-25:15
+12        <package android:name="com.itsaky.androidide" />
+12-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:24:9-57
+12-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:24:18-54
+13    </queries>
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:27:5-67
+15-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:27:22-64
+16    <uses-permission android:name="com.itsaky.androidide.permission.BIND_LOG_SERVICE" />
+16-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:28:5-89
+16-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:28:22-86
+17
+18    <application
+18-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:5:1-34:19
+19        android:allowBackup="true"
+19-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.8.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/35f4a948deebfe6e56a5492680c1f66f/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@drawable/appicon"
+22-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:7:9-41
+23        android:label="Boot PC"
+23-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:8:9-32
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:10:9-35
+26        android:theme="@style/AppTheme" >
+26-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:11:9-40
+27        <activity
+27-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:12:9-22:20
+28            android:name="com.my.mdmd.MainActivity"
+28-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:13:13-41
+29            android:exported="true" >
+29-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:15:13-36
+30            <intent-filter>
+30-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:17:13-21:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:18:17-69
+31-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:18:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:20:17-77
+33-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:20:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.my.mdmd.DetailActivity" />
+36-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:23:3-25:15
+36-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:24:13-43
+37        <activity
+37-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:26:4-29:15
+38            android:name="com.my.mdmd.AboutActivity"
+38-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:27:13-42
+39            android:parentActivityName="com.my.mdmd.MainActivity" />
+39-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:28:4-46
+40        <activity android:name="com.my.mdmd.PickerActivity" />
+40-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:30:5-33:15
+40-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:31:13-43
+41
+42        <provider
+42-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:31:9-35:40
+43            android:name="com.itsaky.androidide.logsender.utils.LogSenderInstaller"
+43-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:32:13-84
+44            android:authorities="com.my.mdmd.logsender-installer"
+44-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:33:13-71
+45            android:enabled="@bool/logsender_enabled"
+45-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:34:13-54
+46            android:exported="false" />
+46-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:35:13-37
+47
+48        <service
+48-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:37:9-39:40
+49            android:name="com.itsaky.androidide.logsender.LogSenderService"
+49-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:38:13-76
+50            android:exported="false" />
+50-->[com.itsaky.androidide:logsender:2.5.0-beta] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/919ef34bd50ca5cb6267b1c51d438959/transformed/logsender-2.5.0-beta-debug/AndroidManifest.xml:39:13-37
+51
+52        <provider
+52-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:12:9-22:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:13:13-67
+54            android:authorities="com.my.mdmd.androidx-startup"
+54-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:14:13-68
+55            android:exported="false" >
+55-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:15:13-37
+56
+57            <!-- Automatically runs KotprefInitializer at app startup -->
+58            <meta-data
+58-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:19:13-21:52
+59                android:name="com.chibatching.kotpref.initializer.KotprefInitializer"
+59-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:20:17-86
+60                android:value="androidx.startup" />
+60-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:21:17-49
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/7c325a205bad1302d7073d1cbfd4301e/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/7c325a205bad1302d7073d1cbfd4301e/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/7c325a205bad1302d7073d1cbfd4301e/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/e8a3534ef31e13ca9d365f2ba15c592c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/e8a3534ef31e13ca9d365f2ba15c592c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/e8a3534ef31e13ca9d365f2ba15c592c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>

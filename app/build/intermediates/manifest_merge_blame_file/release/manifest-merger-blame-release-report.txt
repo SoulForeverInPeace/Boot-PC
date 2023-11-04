@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.my.mdmd"
+4    android:versionCode="1"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:5:1-34:19
+12        android:allowBackup="true"
+12-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/35f4a948deebfe6e56a5492680c1f66f/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:icon="@drawable/appicon"
+14-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:7:9-41
+15        android:label="Boot PC"
+15-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:8:9-32
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:10:9-35
+18        android:theme="@style/AppTheme" >
+18-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:11:9-40
+19        <activity
+19-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:12:9-22:20
+20            android:name="com.my.mdmd.MainActivity"
+20-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:13:13-41
+21            android:exported="true" >
+21-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:15:13-36
+22            <intent-filter>
+22-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:17:13-21:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:18:17-69
+23-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:18:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:20:17-77
+25-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:20:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="com.my.mdmd.DetailActivity" />
+28-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:23:3-25:15
+28-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:24:13-43
+29        <activity
+29-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:26:4-29:15
+30            android:name="com.my.mdmd.AboutActivity"
+30-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:27:13-42
+31            android:parentActivityName="com.my.mdmd.MainActivity" />
+31-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:28:4-46
+32        <activity android:name="com.my.mdmd.PickerActivity" />
+32-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:30:5-33:15
+32-->/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app/src/main/AndroidManifest.xml:31:13-43
+33
+34        <provider
+34-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:12:9-22:20
+35            android:name="androidx.startup.InitializationProvider"
+35-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:13:13-67
+36            android:authorities="com.my.mdmd.androidx-startup"
+36-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:14:13-68
+37            android:exported="false" >
+37-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:15:13-37
+38
+39            <!-- Automatically runs KotprefInitializer at app startup -->
+40            <meta-data
+40-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:19:13-21:52
+41                android:name="com.chibatching.kotpref.initializer.KotprefInitializer"
+41-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:20:17-86
+42                android:value="androidx.startup" />
+42-->[com.chibatching.kotpref:initializer:2.13.1] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/d73c4a0f872a25666013af6ac0b66ecb/transformed/initializer-2.13.1/AndroidManifest.xml:21:17-49
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/7c325a205bad1302d7073d1cbfd4301e/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/7c325a205bad1302d7073d1cbfd4301e/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/7c325a205bad1302d7073d1cbfd4301e/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/e8a3534ef31e13ca9d365f2ba15c592c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/e8a3534ef31e13ca9d365f2ba15c592c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/e8a3534ef31e13ca9d365f2ba15c592c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>

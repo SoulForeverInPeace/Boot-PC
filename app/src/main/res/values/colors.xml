@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seed">#6750A4</color>
+    <color name="md_theme_light_primary">#6750A4</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#EADDFF</color>
+    <color name="md_theme_light_onPrimaryContainer">#21005D</color>
+    <color name="md_theme_light_secondary">#625B71</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#E8DEF8</color>
+    <color name="md_theme_light_onSecondaryContainer">#1D192B</color>
+    <color name="md_theme_light_tertiary">#7D5260</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#FFD8E4</color>
+    <color name="md_theme_light_onTertiaryContainer">#31111D</color>
+    <color name="md_theme_light_error">#B3261E</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#F9DEDC</color>
+    <color name="md_theme_light_onErrorContainer">#410E0B</color>
+    <color name="md_theme_light_outline">#79747E</color>
+    <color name="md_theme_light_background">#FFFBFE</color>
+    <color name="md_theme_light_onBackground">#1C1B1F</color>
+    <color name="md_theme_light_surface">#FFFBFE</color>
+    <color name="md_theme_light_onSurface">#1C1B1F</color>
+    <color name="md_theme_light_surfaceVariant">#E7E0EC</color>
+    <color name="md_theme_light_onSurfaceVariant">#49454F</color>
+    <color name="md_theme_light_inverseSurface">#313033</color>
+    <color name="md_theme_light_inverseOnSurface">#F4EFF4</color>
+    <color name="md_theme_light_inversePrimary">#D0BCFF</color>
+    <color name="md_theme_light_shadow">#000000</color>
+    <color name="md_theme_light_surfaceTint">#6750A4</color>
+    <color name="md_theme_light_outlineVariant">#CAC4D0</color>
+    <color name="md_theme_light_scrim">#000000</color>
+	
+    
+    <color name="md_theme_dark_primary">#999999</color>
+<color name="md_theme_dark_onPrimary">#1e1e1e</color>
+<color name="md_theme_dark_primaryContainer">#222222</color>
+<color name="md_theme_dark_onPrimaryContainer">#242424</color>
+<color name="md_theme_dark_secondary">#777777</color>
+<color name="md_theme_dark_onSecondary">#332D41</color>
+<color name="md_theme_dark_secondaryContainer">#333333</color>
+<color name="md_theme_dark_onSecondaryContainer">#E8DEF8</color>
+<color name="md_theme_dark_tertiary">#EFB8C8</color>
+<color name="md_theme_dark_onTertiary">#492532</color>
+<color name="md_theme_dark_tertiaryContainer">#633B48</color>
+<color name="md_theme_dark_onTertiaryContainer">#383838</color>
+<color name="md_theme_dark_error">#F2B8B5</color>
+<color name="md_theme_dark_onError">#601410</color>
+<color name="md_theme_dark_errorContainer">#8C1D18</color>
+<color name="md_theme_dark_onErrorContainer">#F9DEDC</color>
+<color name="md_theme_dark_outline">#938F99</color>
+<color name="md_theme_dark_background">#202020</color>
+<color name="md_theme_dark_onBackground">#1C1B1F</color>
+<color name="md_theme_dark_surface">#1C1B1F</color>
+<color name="md_theme_dark_onSurface">#E6E1E5</color>
+<color name="md_theme_dark_surfaceVariant">#49454F</color>
+<color name="md_theme_dark_onSurfaceVariant">#CAC4D0</color>
+<color name="md_theme_dark_inverseSurface">#E6E1E5</color>
+<color name="md_theme_dark_inverseOnSurface">#313033</color>
+<color name="md_theme_dark_inversePrimary">#6750A4</color>
+<color name="md_theme_dark_shadow">#000000</color>
+<color name="md_theme_dark_surfaceTint">#D0BCFF</color>
+<color name="md_theme_dark_outlineVariant">#49454F</color>
+<color name="md_theme_dark_scrim">#000000</color>
+
+	  <color name="colorPrimaryDark">#FF212121</color>
+
+   <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#0097A7</color>
+    <color name="teal_900">#006064</color>
+
+    <color name="blue_200">#62A3FF</color>
+    <color name="blue_700">#1675D1</color>
+    <color name="blue_900">#004A9F</color>
+
+    <color name="black">#FF000000</color>
+	
+	<color name="actionbar_background">#EDEADE</color>
+<color name="actionbar_text">#ffffff</color>
+
+
+
+    <color name="background_color">#F5F5F5</color>
+    <color name="text_color">#000000</color>
+    <color name="hint_color">#A0A0A0</color>
+    <color name="card_background_color">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_background_color">#4CAF50</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="edittext_background_color">#FFFFFF</color>
+    <color name="edittext_stroke_color">#BDBDBD</color>
+     <color name="button_ripple_color">#80DEEA</color>
+
+</resources>

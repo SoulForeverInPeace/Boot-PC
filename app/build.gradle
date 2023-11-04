@@ -1,0 +1,78 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk 32
+    buildToolsVersion "33.0.0"
+
+    defaultConfig {
+        applicationId "com.my.mdmd"
+        minSdk 22
+        targetSdk 33
+        versionCode 1
+        versionName "1.5"
+    }
+    
+    signingConfigs {
+        release {
+            // Specify the name of your keystore file
+            // The file must be located in your module directory
+            storeFile file("signing-keyy.jks")
+						
+            // The keystore password
+            storePassword "01977528253"
+						
+            // The key alias, same as the one you specified
+            // with -alias argument while creating the keystore
+            keyAlias "Whatever"
+						
+            // The key password
+            keyPassword "01977528253"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+          signingConfig signingConfigs.release
+        }
+    }
+    
+    compileOptions {
+		sourceCompatibility JavaVersion.VERSION_11
+		targetCompatibility JavaVersion.VERSION_11
+	}
+	
+	kotlinOptions {
+        jvmTarget = '11'
+    }
+    
+	buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.6.1'
+    
+  
+    
+    implementation 'com.chibatching.kotpref:kotpref:2.13.1'
+	implementation 'com.chibatching.kotpref:initializer:2.13.1'
+	
+    
+	implementation files('libs/ktshh.jar')
+
+    // Kotlin
+    implementation "androidx.fragment:fragment-ktx:1.5.7"
+	implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+}

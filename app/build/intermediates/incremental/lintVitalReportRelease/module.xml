@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/storage/emulated/0/AndroidIDEProjects/BootPC(1)/app"
+    name=":app"
+    type="APP"
+    maven="Boot PC:app:"
+    gradle="7.2.1"
+    buildFolder="build"
+    bootClassPath="/data/data/com.itsaky.androidide/files/home/android-sdk/platforms/android-32/android.jar:/data/data/com.itsaky.androidide/files/home/android-sdk/build-tools/33.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-32"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
