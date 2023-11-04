@@ -15,7 +15,7 @@ Requirement: Rooted device
 
 **To download check release.**
 
-``` Note[19/9/2023]: Starting from today there will be two version, untested and stable. latest release may contain anybof these. ```
+``` Note[19/9/2023]: Starting from today there will be two versions, untested and stable. Latest release may contain any of these. ```
 
 Image taken from: https://www.flaticon.com/free-icon/connection_1674900?related_id=1674798&origin=search
 
