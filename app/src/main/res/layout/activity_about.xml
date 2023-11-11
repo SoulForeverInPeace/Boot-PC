@@ -19,7 +19,7 @@
             android:text="Boot PC"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="?style/textColorBootPc"
+            android:textColor="#5C5C5C"
             android:textSize="42dp"
             android:textStyle="bold" />
 
