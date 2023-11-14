@@ -33,7 +33,7 @@
 		
        <item name="android:textColorPrimary">@color/white</item>
 	   
- 	<item name = "textColorBootPc">@color/white</item>
+ 	<item name = "textColorBootPc">#F8F0E3</item>
 
 
 
