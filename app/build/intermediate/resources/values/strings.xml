@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Myen</string>
+	  <string name="hyperlink"> Looks like we can\'t leave this page¿!?  Learn about root\n <a href="https://example.com">more</a></string>
+	
+	<string name="contact_info_git">   <a href="https://github.com/SoulForeverInPeace/Boot-PC">Github</a></string>
+	
+</resources>
