@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:versionCode="1" android:versionName="1.5" package="com.my.mdmd">
+
+    <uses-sdk android:minSdkVersion="22" android:targetSdkVersion="33"/>
+
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@drawable/appicon" android:label="Boot PC" android:name="com.my.mdmd.LoggerApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:exported="true" android:name="com.my.mdmd.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.my.mdmd.DetailActivity"/>
+        <activity android:name="com.my.mdmd.AboutActivity" android:parentActivityName="com.my.mdmd.MainActivity"/>
+        <activity android:name="com.my.mdmd.PickerActivity"/>
+
+        <provider android:authorities="com.my.mdmd.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider" tools:node="merge">
+
+            <!-- Automatically runs KotprefInitializer at app startup -->
+            <meta-data android:name="com.chibatching.kotpref.initializer.KotprefInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+        </provider>
+    </application>
+
+</manifest>
